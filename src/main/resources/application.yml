@@ -19,3 +19,8 @@ jwt:
     key: fsadfsadflsadjfl123123123123l2kj3l13j2l313l21j3l12jsd
 
 
+logging:
+  level:
+    root: info                       # ✅ 전체 로그 기본 레벨 유지 (error, warn 포함)
+    org.hibernate.SQL: debug         # SQL 로그
+    org.hibernate.orm.jdbc.bind: trace  # 바인딩된 파라미터 출력
